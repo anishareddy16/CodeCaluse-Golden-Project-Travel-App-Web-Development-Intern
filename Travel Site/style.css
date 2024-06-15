@@ -1,0 +1,487 @@
+#logoimage{
+    width: 80px;
+    
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color:#e5e0f5; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#nav{
+    background:#6f50df;
+  
+}
+.navbar-brand{
+    color: rgb(245, 247, 248);
+    background: #7265a0;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bolder;
+}
+.navbar-brand:hover{
+    color: #0d0d0e;
+}
+.nav-link{
+    color: rgb(247, 239, 239);
+    font-family: 'Ubantu' , sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: #0d0d0e;
+}
+.dropdown-menu{
+    background: #6f50df;
+    color: rgb(247, 244, 244);
+    font-family: 'Ubantu' , sans-serif;
+    font-weight: bolder;
+}
+.dropdown-item{
+    color: rgb(230, 215, 215);
+    font-family: 'Ubantu' , sans-serif;
+    font-weight: bolder;
+}
+
+.dropdown:hover .dropdown-menu {
+    display:block;
+  }
+.navbar-toggler-icon {
+    color: #f8f7f7;
+  }
+ 
+/* image */
+.card-img{
+    width: 100%;
+    height: 75vh;
+    margin-top: 0;
+}
+
+#img-text{
+    text-align: center;
+    margin-top: 180px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-weight: bolder;
+}
+#img-text h1,h2{
+    font-family: 'Ubantu' , sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+   
+}
+/* animation */
+
+#changetext {
+    color:rgb(59, 56, 56);
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+#changetext{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#changetext:after {
+    content: "";
+    animation-name: changetextanim;
+    animation-duration:  4s;
+    animation-iteration-count: infinite;
+}
+@keyframes changetextanim
+ {
+    0%{
+        content: "India";
+        color: #6fee91;
+    }
+    50%{
+        content: "United State";
+        color: #40685e;
+    }
+    75%{
+        content: "France";
+        color: rgb(234, 214, 158);
+    }
+    100%{
+        content: "Germany";
+        color: rgb(229, 150, 97);
+    }
+    
+ }
+/*Left-section part*/
+#section{
+    background-color:  #ae9fe3;
+}
+#brand{
+    
+   margin-top: 70px;
+}
+.card-body, img{
+    height: 90%;
+    width: 90%;
+}
+.row{
+    margin-top: 25px;
+    background-color:#fbfaff;
+}
+
+/*Right-section part*/
+#bookingForm{
+    margin-top: 15px;
+    color: white;
+    font-weight: bolder;
+    width: 80%;
+   margin-left: 50px;
+   
+}
+#form-heading{
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#form-btn{
+   margin-left: 250px;
+   border-radius: 15px;
+   padding: 10px;   
+   margin-bottom: 10px;
+   font-weight: bold;
+}
+#form-btn:hover{
+    background-color: #0cafeb;
+    color: white;
+}
+
+/*package gallary*/
+
+h4{
+    text-align: center;  
+    color: black;  
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(181, 181, 225), 0 0 5px rgb(81, 81, 161);
+    margin-left: 30px;
+}
+.card-img-top{
+    margin-left: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+#star{
+    font-size: larger;
+    text-align: center;
+    color: rgb(247, 151, 7);
+    margin-left: 50px;
+}
+.card-body{
+    text-align: center;
+}
+.card-img-top:hover{
+    transform: scale(0.90);
+}
+#img-btn{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.col-md-4{
+    margin-bottom: 10px; 
+}
+.card-body p{
+   margin-left: 50px;
+}
+
+/* validation messages */
+.error-message {
+   color: red;
+    font-size: 14px; 
+ 
+}
+
+
+/*services*/
+#heading{
+    background-color:#816ec4;
+    padding: 15px;
+    border-radius: 10px;   
+    color: rgb(253, 250, 250);  
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-family:"Montserrat", Arial, sans-serif;
+    font-weight: bold;                         
+}
+
+.service-card  {
+    border: 2px solid #131212;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #030303;
+    color: rgb(250, 247, 247);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .service-card h2{
+    text-shadow: 1px 1px 2px rgb(17, 17, 17), 0 0 25px rgb(51, 51, 209), 0 0 5px rgb(41, 41, 252);
+    color: rgb(245, 244, 244);
+  }
+  .service-card p{
+    font-weight: bold;
+  }
+.carousel-inner{
+    background-color: #f9f8fc;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #030303;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Facebook, #instagram, #lkd {
+    width: 100px;
+    height: 100px;
+}
+
+#yt {
+    height: 80px;
+    width: 100px;
+    margin-top: 17px;
+}
+#social-media:hover{
+    background-color: #979595;
+}
+  
+#star1{
+    font-size: larger;
+    text-align: center;
+    color: rgb(247, 151, 7);
+  
+}
+
+  
+/*Gallary*/
+.gallery-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .gallery-item img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  .gallery-item:hover img {
+    transform: scale(0.90);
+  }
+/*About Us*/
+#left-brand{
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+#right-brand{
+    background: linear-gradient( #9198e5,#50C4ED,#a1cedf,#9198e5);
+    height: 72vh;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+#right-brand h1{
+    margin-top: 15px;
+    color: white;
+}
+#right-brand p, li{
+   font-size: 15px;
+   font-weight: 900;
+   
+}
+#right-brand p{
+    margin-top: 30px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon div{
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  cursor: pointer;
+  color: #c5cfe2;
+  border-radius: 30%;
+  justify-content: center;
+  background-color:white;
+  font-size: 30px;
+  
+}
+.icon div:hover {
+  background-color: #cccacb;
+}
+.icon .linkedin {
+  margin-left: 25px
+}
+
+.icon .gmail {
+  margin-left: 25px;
+}
+.icon .mobile{
+  margin-left: 25px;
+}
+
+.icon .youtube {
+  margin-left: 25px;
+}
+/*Footer*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2px, auto));
+    gap: 2rem;
+    background-color: #2f0202;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h3{
+    
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(114, 157, 244);
+}
+.footer-box a{
+    color: #fffdfd;
+    margin-bottom: 0.8rem;
+    transition: all .50s ease;
+}
+.footer-box1 h3{
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(124, 159, 230);
+    
+}
+.footer-box1 a{
+    color: #fffdfd;
+    margin-bottom: 0.8rem;
+    transition: all .50s ease;
+    font-size: 25px;
+}
+
+.footer-box a:hover{
+    transform: translate(-5px);
+    color: rgb(196, 190, 185);
+}
+.footer-box1 a:hover{
+    transform: translate(-5px);
+    color: rgb(196, 190, 185);
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+    color: #161616;
+    font-size: 15px;
+}
+
+ /* Custom CSS for mobile view  */
+ /*Gallary*/
+  @media (max-width: 576px) {
+   #img-text{
+    margin-top: 150px;
+   }
+   #img-text h2{
+    font-size: 25px;
+   }
+   #changetext{
+    font-size: 25px ;
+   }
+    .card-img-top{
+        margin-left: 25px; 
+    }
+    #form-btn{
+        font-size: small; 
+        margin-left: 110px;
+    }
+    #form-heading{
+        font-size: 18px;
+    }
+    #bookingForm{
+        margin-left: 40px;
+    }
+    #Gallary .col-md-4 {
+      flex: 0 0 50%; 
+      max-width: 50%; 
+    }
+    #Facebook, #instagram, #lkd{
+        height: 50px;
+        width: 50px;
+    }
+    #yt{
+        height: 40px;
+        width: 50px;
+    }
+    #star1{
+        font-size: 15px;
+    }
+    .col-md-3 {
+      flex: 0 0 100%; 
+      max-width: 50%; 
+      margin-bottom: 1rem; 
+    }
+    .carousel-item p{
+        font-size: 12px;
+    }
+    #heading{
+        font-size: 20px;
+        padding: 5px; 
+    }
+    h1{
+        font-size: 20px;
+    }
+    .service-card h2{
+        font-size: 20px;
+    }
+    #right-brand p, li{
+        font-size: 13px;
+    }
+    #right-brand{
+        margin-top: 2px;
+        height: 80vh;
+    }
+    #left-brand{
+        margin-top: 10px; 
+    }
+    .footer{
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .footer-box h3{
+        font-size: 15px;;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .footer-box1 h3{
+        font-size: 15px;;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .footer-box a{
+        color: #fffdfd;
+        margin-bottom: 0.8rem;
+        transition: all .50s ease;
+        font-size: 12px;
+    }
+    .footer-box1 a{
+        color: #fffdfd;
+        margin-bottom: 0.8rem;
+        transition: all .50s ease;
+        font-size: 12px;
+    }
+    
+}
+    
